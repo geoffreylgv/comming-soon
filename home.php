@@ -1,3 +1,8 @@
+<?php
+
+$coding_is_beati;
+
+?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -10,12 +15,13 @@
   <!-- Favicon -->
   <link href="favicon.ico" rel="icon">
   <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
 
   <!-- Custom fonts for this template -->
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
 
   <!-- Custom styles for this template -->
   <link href="css/coming-soon.min.css" rel="stylesheet">
@@ -51,8 +57,10 @@
       </div>
     </div>
   </div>
+<?php
 
-  <div class="social-icons">
+echo'
+<div class="social-icons">
     <ul class="list-unstyled text-center mb-0">
       <li class="list-unstyled-item" data-toggle="tooltip" data-placement="top" title="Profil Complet Linkedin">
         <a href="https://linkedin.com/in/geoffreylgv" target="_blank">
@@ -77,22 +85,29 @@
     </ul>
   </div>
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+';
 
+?>
+  
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
   <!-- Custom scripts for this template -->
   <script src="js/coming-soon.min.js"></script>
 	<!-- -->
-	<div id="sfc2d1zz5kp9apgb2w7g5afpk66c1pmzjnr" class="toHide"></div>
-		
-        <script type="text/javascript" src="https://counter3.stat.ovh/private/counter.js?c=2d1zz5kp9apgb2w7g5afpk66c1pmzjnr&down=async" async></script>
-        <script>
-        <a href="https://www.compteurdevisite.com" title="compteur pour site internet"><img src="https://counter3.stat.ovh/private/compteurdevisite.php?c=2d1zz5kp9apgb2w7g5afpk66c1pmzjnr" border="0" title="compteur pour site internet" alt="compteur pour site internet"></a>
-        </script>
-        <!--
-        <a href="https://www.compteurdevisite.com" title="compteur pour site internet"><img src="https://counter3.stat.ovh/private/compteurdevisite.php?c=2d1zz5kp9apgb2w7g5afpk66c1pmzjnr" border="0" title="compteur pour site internet" alt="compteur pour site internet"></a>
-	 -->
+	<?php
+    echo'
+        <div id="sfc2d1zz5kp9apgb2w7g5afpk66c1pmzjnr" class="toHide"></div>
+		    
+            <script type="text/javascript" src="https://counter3.stat.ovh/private/counter.js?c=2d1zz5kp9apgb2w7g5afpk66c1pmzjnr&down=async" async></script>
+            <script>
+                <a href="https://www.compteurdevisite.com" title="compteur pour site internet"><img src="https://counter3.stat.ovh/private/compteurdevisite.php?c=2d1zz5kp9apgb2w7g5afpk66c1pmzjnr" border="0" title="compteur pour site internet" alt="compteur pour site internet"></a>
+            </script>
+    ';
+
+    ?>
+	
 	<script>
 		window.onload = function() { document.body.className = ''; }
 		window.ontouchmove = function() { return false; }
