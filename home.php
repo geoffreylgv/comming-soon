@@ -82,6 +82,11 @@ echo'
           <i class="fa fa-cloud-download-alt"></i>
         </a>
       </li>
+      <li class="list-unstyled-item"  data-toggle="tooltip" data-placement="top" title="Me payer un Café">
+        <a href="https://paypal.me/geoffreylgv" target="_blank">
+          <i class="fa fa-paypal"></i>
+        </a>
+      </li>
     </ul>
   </div>
 
